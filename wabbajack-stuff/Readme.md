@@ -29,13 +29,13 @@
 - [FAQ](#faq)
 - [Controller Support](#controller-support)
 - [ENB](#enb)
-- [More Modular CC Support](#more-modular-cc-support)
+- [Widescreen Support](#widescreen-support)
 - [Credits and Thanks](#credits-and-thanks)
 - [Contact](#contact)
 
 # Preamble
 
-### Magnum Opus ![build-status](https://img.shields.io/endpoint?label=%20&url=https%3A%2F%2Fbuild.wabbajack.org%2Flists%2Fstatus%2Fmagnum_opus%2Fbadge.json)
+### Magnum Opus
 
 Magnum Opus is what one would describe as a "kitchen sink list." There is no specific focus or aspect I really care about. There is no specific goal I'm trying to achieve. I just want to have fun.
 
@@ -143,6 +143,13 @@ You may notice some mods are deactivated. These are for the Creation Club profil
 ## Updating
 
 If this Modlist receives an update, please check the Changelog before doing anything. Always backup your saves or start a new game after updating.
+
+Magnum Opus updates based on a [Semantic Versioning](https://en.wikipedia.org/wiki/Software_versioning) system.
+
+Generally speaking:  
+- Full x.0 (2.0, 3.0, etc) updates requires a new game.  
+- Major x.x (2.1, 2.2 etc) updates requires a new game.  
+- Minor x.x.x (2.1.1, 2.1.2) updates can be applied to an ongoing playthrough.
 
 **Wabbajack will delete all files that are not part of the Modlist when updating!**
 
@@ -378,7 +385,13 @@ That's it! Have fun!
 
 - Some of my perk chart icons are way off-center.
 
-  - I know. I don't know how to fix it because I don't know how to use flash or jpexs. You can either accept this visual issue in exchange for the new perks, or you can disable `Creative Perks`, `Creative Perks Plus`, & `Kat and Lively Gettin Down`.
+  - I know. I don't know how to fix it because I don't know how to use flash or jpexs. You can either accept this visual issue or you can...play something else. Sorry, I like the perks and the minor visual issues don't bother me.
+
+- I'm having trouble downloading FO4LODGen Resources and/or More Feral Ghouls.
+
+  - Download them manually, put the archives in your Downloads folder, and restart Wabbajack.
+  - [FO4LODGen Resources](https://mega.nz/file/BZhlVCAJ#s-GqqbnJlZDvCLPiRw1Wm1EWGqMQCuh4CR8Zzn8POM4)
+  - [More Feral Ghouls](https://mega.nz/file/CV0xHADJ#lzGJk4BP1YYyTP2GmmRcSQD01Ca8URs-jkxJv3jSNdc)
 
 
 - I am having random crashes.
@@ -393,7 +406,7 @@ That's it! Have fun!
 
 - Can I add more mods or remove some mods I don't want?
 
-  - Can you? Yes. Will I help you? Maybe, but please discuss it in either general channels or my personal Discord server, and be sure to disclose the fact that you've edited the list before reporting any bugs or crashes. If you're open and honest with me, I'm honestly much more willing to help you through your issues.
+  - Can you? Yes. Will I help you? Maybe, but **please discuss it in either general channels or my personal Discord server**, and be sure to disclose the fact that you've edited the list before reporting any bugs or crashes. If you're open and honest with me, I'm honestly much more willing to help you through your issues.
 
 
 - Why is my crosshair on my pipboy?
@@ -429,13 +442,9 @@ Then find the `[General]` section and change `bGamepadEnable=` from a `0` to a `
 
 I don't use an ENB. I never saw the need. The ENB binaries are present for other purposes. If you wish to add an ENB preset, go for it, but I will provide zero support for such endeavors.
 
-## More Modular CC Support
+## Widescreen Support
 
-Please before we begin that there is NO SUPPORT WHATSOEVER for CC content outside of the previously written list, with a strong emphasis on Pipboy and Power Armor Paint Jobs. Pipboy Paint Jobs will **most likely cause a CTD at the main menu.** There is also really no support whatsoever for this section, but I am against taking away the freedom for you to do as you like, so maybe this will help if, say, you only own a few CC mods.
-
-In Mod Organizer 2's profile dropdown in the top-left, you'll see a third profile called `Opus CC Only`. This profile has no mods active that are not required for the Creation Club mods and my various patches. Activate this profile, then launch xEdit through MO2. Load all modules. When it is finished, right click anywhere in the left pane and select `Apply Script`, then choose the `M8r Complex Sorter` script. Change the output .esp name to something unique, and click `Generate`.
-
-When it is finished, close xEdit and save the new plugin. Switch back to the `Magnum Opus - CC Profile` in MO2, and activate your new plugin.
+I don't own a widescreen monitor, so I can't help directly. I don't mind you guys helping each other though, obviously. A generous discord user by the name of bjdripley wrote an [Ultrawide Compatibility Guide for Magnum Opus](https://docs.google.com/document/d/1EbZ_DpyhctsrpBlylDYc2TXtm1NAOjkcYjRCNZsC958/edit) that you may find useful.
 
 ## Credits and Thanks
 
