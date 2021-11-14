@@ -12,7 +12,6 @@ In this guide I'll be walking you through how to:
 
 ## What you will need
 
-- Any text editor. I personally recommend [Visual Studio Code](https://code.visualstudio.com/download), however [Notepad++](https://notepad-plus-plus.org/downloads/), [Sublime](https://www.sublimetext.com/) or even the venerable Notepad are all perfectly acceptable.
 - The [Creation Kit](https://www.creationkit.com/index.php?title=Category:Getting_Started#Installing_the_Creation_Kit)
 - [Champollion](https://www.nexusmods.com/skyrim/mods/35307/?tab=files)
 - [My Example Mod](FIXME)
@@ -29,7 +28,7 @@ An uncompiled "Source" script will have the **.PSC** file extension, while a com
 
 ### From PEX to PSC, and back again
 
-Unfortunately, some mod authors do not include their source files with their mods. Instead choosing to only include the compiled PEX files. This is where script **Decompilation** comes in. By making use of a tool called **Champollion** we are able to convert a compiled PEX script back to a editable PSC source file.  
+Unfortunately, some mod authors do not include their script source files with their mods. Instead choosing to only include the compiled PEX files. This is where script **Decompilation** comes in. By making use of a tool called **Champollion** we are able to convert a compiled PEX script back to a editable PSC source file.  
 
 How this is done will be covered in more detail in the FIXME section of this guide.
 
@@ -37,10 +36,28 @@ How this is done will be covered in more detail in the FIXME section of this gui
 
 For reasons beyond the ken of us mere mortals, Bethesda decided to change the default location of the source files for scripts in SE compared to LE. Because of this decision some mods will have their script source files in ``/Source/Scripts``(SE default) while other mods will have their scripts in ``/Scripts/Source``(LE default). Any time you're looking through a mod for it's source files make sure you check both folders before you try to decompile any scripts.
 
-## Time to get started
+## Getting ready
 
 ### Installing the Creation Kit
 
-Download and install the creation kit, and then make sure you unzip the file called "Scripts.rar" to the skyrim root folder. 
+Download and install the Creation Kit (CK), and then make sure you unzip the file called "Scripts.zip" (or .rar) to the ``Skyrim Special Edition\Data\`` folder. Without the contents of this archive extracted you will be unable to compile 99% of scripts.
 
-### Downloading my example mod.
+Next you want to get the CK setup inside MO2, follow __[this video](https://www.youtube.com/watch?v=Dq1F62MOviY)__ by the excellent _GamerPoets_ to see how to do this.
+
+### Downloading Champollion
+
+Follow the link provided above and download the latest version of Champollion, once you have it downloaded you'll want to place this somewhere easy to access it.
+
+### Downloading my example mod
+
+Click the link provided above and you should get a zip file that contains the example mod. Install this with MO2 like any other mod, and enable it in the left hand panel.
+
+## Now we begin
+
+### Working out where to begin
+
+One of the hardest steps for many beginners working with scripts is working out where to start, so lets begin with that. Right click on my example mod in MO2 and select ``Open in Explorer``, inside this newly opened window you should look for a specific folder named ``Scripts``, this is where the PEX files are always stored. If you ever see a PEX file outside of the ``Scripts`` you can safely assume it doesn't do anything.
+
+If you open the ``Scripts`` folder and look inside, you'll notice that there isn't a ``Source`` folder. That means this mod is following the SE Source Scripts convention, rather than the LE convention. (Refer back to [Source Scripts and Scripts Source](### Source Scripts and Scripts Source) for what this means)
+
+So because 
