@@ -58,6 +58,6 @@ Click the link provided above and you should get a zip file that contains the ex
 
 One of the hardest steps for many beginners working with scripts is working out where to start, so lets begin with that. Right click on my example mod in MO2 and select ``Open in Explorer``, inside this newly opened window you should look for a specific folder named ``Scripts``, this is where the PEX files are always stored. If you ever see a PEX file outside of the ``Scripts`` you can safely assume it doesn't do anything.
 
-If you open the ``Scripts`` folder and look inside, you'll notice that there isn't a ``Source`` folder. That means this mod is following the SE Source Scripts convention, rather than the LE convention. (Refer back to [Source Scripts and Scripts Source](### Source Scripts and Scripts Source) for what this means)
+If you open the ``Scripts`` folder and look inside, you'll notice that there isn't a ``Source`` folder. That means this mod is following the SE Source Scripts convention, rather than the LE convention. (Refer back to [Source Scripts and Scripts Source](###-Source-Scripts-and-Scripts-Source) for what this means)
 
 So because 
