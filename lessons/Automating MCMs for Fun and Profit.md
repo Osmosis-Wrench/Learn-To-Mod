@@ -12,9 +12,10 @@ In this guide I'll be walking you through how to:
 
 ## What you will need
 
-- The [Creation Kit](https://www.creationkit.com/index.php?title=Category:Getting_Started#Installing_the_Creation_Kit)
+- [The Creation Kit](https://www.creationkit.com/index.php?title=Category:Getting_Started#Installing_the_Creation_Kit)
 - [Champollion](https://www.nexusmods.com/skyrim/mods/35307/?tab=files)
-- [My Example Mod](FIXME)
+- [My Example Mod]
+- [The SkyUI SDK]
 
 ## Before we begin
 
@@ -52,13 +53,16 @@ Follow the link provided above and download the latest version of Champollion, o
 
 Click the link provided above and you should get a zip file that contains the example mod. Install this with MO2 like any other mod, and enable it in the left hand panel.
 
-## Now we begin
+## Actually doing the thing
 
 ### Working out where to begin
 
-One of the hardest steps for many beginners working with scripts is working out where to start, so lets begin with that. Right click on my example mod in MO2 and select ``Open in Explorer``, inside this newly opened window you should look for a specific folder named ``Scripts``, this is where the PEX files are always stored. If you ever see a PEX file outside of the ``Scripts`` you can safely assume it doesn't do anything.
+One of the hardest steps for many beginners working with scripts is working out where to start, so lets begin with that. Right click on my example mod in MO2 and select ``Open in Explorer``, inside this newly opened window you should look for a specific folder named ``Scripts``, this is where the PEX files are always stored. If you ever see a PEX file outside of ``Scripts`` you can safely assume it doesn't do anything.
 
 If you open the ``Scripts`` folder and look inside, you'll notice that there isn't a ``Source`` folder. That means this mod is following the SE Source Scripts convention, rather than the LE convention. (Refer back to [Source Scripts and Scripts Source](###-Source-Scripts-and-Scripts-Source) for what this means.)
 
 So because this mod is using the SE convention, we know we will need to go back to the root mod folder and open the ``\Source\Scripts`` folders to access the PSC files.  
-Navigate to the folder and you should now see a single PSC file called ``MyFirstMCM.psc``
+Navigate to the folder and you should now see a single PSC file called ``MyFirstMCM.psc`` and open it with your preferred text editor.
+
+### Understanding what you are seeing
+
